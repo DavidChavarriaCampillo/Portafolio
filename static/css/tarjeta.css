@@ -1,0 +1,53 @@
+/* From uiverse.io by @gagan-gv */
+.card {
+    width: 300px;
+    height: 400px;
+    /*background: #07182E;*/
+    background-image: linear-gradient(to right top, #00fff8, #00eeff, #00dcff, #39c7ff, #70b1ff);
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: -webkit-body;
+    z-index: 1;
+   }
+   
+   .img {
+    display: flex;
+    margin: 60px auto 10px auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    z-index: 99;
+    background-color: #70B1FF;
+   }
+   
+   .P {
+    opacity: 0;
+    transition: all 0.5s;
+   }
+   
+   h1 {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+   }
+   
+   svg {
+    padding: 0 5px;
+    cursor: pointer;
+   }
+   
+   .card:hover .img {
+    transform: scale(1.1);
+    border: 1px solid black;
+   }
+   
+   .card:hover h1,
+   .card:hover p {
+    opacity: 1;
+   }
