@@ -16,14 +16,14 @@
     margin: 60px auto 10px auto;
     width: 150px;
     height: 150px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 50%;
     font-size: 11px;
     justify-content: center;
     align-items: center;
     transition: all 0.5s;
     z-index: 99;
-    background-color: #70B1FF;
+    /*background-color: #70B1FF;*/
    }
    
    .P {

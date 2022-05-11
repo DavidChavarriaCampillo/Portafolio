@@ -21,16 +21,17 @@
 
     {% endblock %}
 
-    <div style="height: 200px;background-image: linear-gradient(to right top, #00fff8, #00eeff, #00dcff, #39c7ff, #70b1ff);">
-        <h1 class="st">PORTAFOLIO</h1>
-    </div>
-    <hr style="margin-left: 15%; width: 70% ;">
+    {% block header %}
+
+        {% include "header.html" %}
+        
+    {% endblock %}
 
     {% block content %}
 
         <!--{% include "informacion.html" %}
         <hr style="margin-left: 15%; width: 70% ;"-->
-    
+        <br>
         {% include "tarjeta.html" %}
         <br>
 

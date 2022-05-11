@@ -4,13 +4,13 @@
 
 {% endblock %}
 <nav id="navbar-example2" class="navbar navbar-ligth px-3">
-    <a class="navbar-brand" href="#" style="color:white;">Navbar</a>
+    <a class="navbar-brand" href="{{url_for('principal')}}" style="color:white;">Portafolio</a>
     <ul class="nav nav-pills">
       <li class="nav-item">
-        <a class="nav-link" href="#scrollspyHeading1" style="color:white;">First</a>
+        <a class="nav-link" href="{{url_for('duvan')}}" style="color:white;">Duvan</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#scrollspyHeading2" style="color:white;">Second</a>
+        <a class="nav-link" href="{{url_for('david')}}" style="color:white;">David</a>
       </li>
     </ul>
 </nav>
